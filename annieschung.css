@@ -1,0 +1,149 @@
+
+
+.span {
+  font-size:6em;
+  color: #B57B30;
+}
+
+.span1{
+  font-size:5em;
+  color: black;
+}
+
+p {
+  font-family: Raleway;
+  font-size: 18px;
+
+  }
+
+.container {
+  width: 100%;
+}
+
+
+.btnProject {
+   background: transparent;
+   color: black;
+   border: 3px solid black;
+  }
+
+.title {
+  font-family: Raleway;
+  font-size: 50px;
+  text-transform: bold;
+}
+
+.navtitle {
+  font-family: Raleway;
+}
+
+#welcomePage {
+  height: 100%;
+  background-image: url("DSC_0478.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+
+#content {
+  text-align: center;
+  padding-bottom: 25%;
+  padding-top:10%;
+  color:black;
+  font-family: Raleway;
+}
+
+#myCarousel {
+  height: 520px auto;
+  background-color: #778899;
+}
+
+#projectname {
+  font-family: Raleway;
+  font-size:50px;
+  text-align: center;
+  color: white;
+  text-transform: bold;
+
+}
+
+
+.project {
+  padding: 30px 30px 70px 30px;
+  text-align: center;
+}
+
+.projectinfo{
+  text-align: justify;
+  text-transform: bold;
+  color: white;
+  font-size: 20px;
+  margin: 50px;
+}
+
+.imgproject{
+  margin: 0 10px 0 10px;
+  padding: 10px 20px 0 20px;
+  float: left;
+}
+
+
+.icon {
+  height: 60px;
+  width: 60px;
+
+}
+
+.img-circle {
+  margin-top: 140px;
+}
+
+.resume {
+  background-color: black;
+  color: white;
+  height: 45px auto;
+  width: 300px;
+  text-align: center;
+}
+
+.resume:hover {
+  color: yellow;
+}
+
+.fa {
+  padding: 50px;
+  margin: 5px 2px;
+  border-radius: 50%;
+  height: auto;
+
+}
+
+.fa-github, .fa-envelope-o {
+  background-color: black;
+  color: white;
+}
+
+.fa-linkedin, .fa-file-pdf-o {
+  background-color: #007bb5;
+  color: white;
+}
+
+
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
+}
