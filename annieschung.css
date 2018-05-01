@@ -1,0 +1,188 @@
+body {
+  font-family: 'Muli', sans-serif;
+
+}
+.span {
+  font-size:6em;
+  color: #B57B30;
+}
+
+.span1{
+  font-size:5em;
+  color: black;
+}
+
+p {
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+}
+
+h2 {
+  font-family: 'Muli', sans-serif;
+
+}
+
+.container {
+  width: 100%;
+}
+
+
+.btnProject {
+   background: transparent;
+   color: black;
+   border: 3px solid black;
+}
+
+.title {
+  font-family: 'Muli', sans-serif;
+  font-size: 50px;
+  text-transform: bold;
+}
+
+.navtitle {
+  font-family: 'Muli', sans-serif;
+}
+
+#welcomePage {
+  height: 100%;
+  background-image: url("DSC_0478.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+
+#content {
+  text-align: center;
+  padding-bottom: 25%;
+  padding-top:10%;
+  color:black;
+  font-family: 'Muli', sans-serif;
+}
+
+/* #myCarousel {
+  width: auto;
+  height: 520px;
+  max-height:520px;
+  background-color: #778899;
+} */
+
+#myCarousel , #myCarousel2,  #myCarousel3 {
+  max-height:275px !important;
+  max-width:500px !important;
+  overflow: hidden;
+}
+
+#myCarousel4 {
+  max-height:350px !important;
+  height: 350px;
+  max-width:200px !important;
+  overflow: hidden;
+
+}
+
+.item {
+  background-size: cover;
+}
+
+.imgproject {
+  background-size: cover;
+}
+
+.carousel-inner {
+background-size: cover;
+}
+
+#projectname {
+  font-family: 'Muli', sans-serif;
+  font-size:50px;
+  text-align: center;
+  color: white;
+  text-transform: bold;
+
+}
+
+
+/* .project {
+  padding: 30px 30px 70px 30px;
+  text-align: center;
+} */
+
+.projectinfo{
+  text-align: justify;
+  text-transform: bold;
+  color: white;
+  font-size: 20px;
+  margin: 50px;
+}
+
+/* .imgproject{
+  margin: 0 10px 0 10px;
+  padding: 10px 20px 0 20px;
+  float: left;
+} */
+
+
+.icon {
+  height: 60px;
+  width: 60px;
+
+}
+
+.img-square {
+  width: 200px;
+  margin-top: 180px;
+  margin-left:20px
+}
+
+.resume {
+  background-color: black;
+  color: white;
+  height: 45px auto;
+  width: 300px;
+  text-align: center;
+}
+
+.resume:hover {
+  color: yellow !important;
+}
+
+.fa {
+  padding: 50px;
+  margin: 5px 2px;
+  border-radius: 50%;
+  height: auto;
+
+}
+
+.fa-github, .fa-envelope-o {
+  background-color: black;
+  color: white;
+}
+
+.fa-linkedin, .fa-file-pdf-o {
+  background-color: #007bb5;
+  color: white;
+}
+
+.space {
+  height: 40px;
+}
+
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 28px;
+  }
+}
