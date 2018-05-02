@@ -131,7 +131,7 @@ background-size: cover;
 .img-square {
   width: 200px;
   margin-top: 180px;
-  margin-left:20px
+  align: center;
 }
 
 .resume {
