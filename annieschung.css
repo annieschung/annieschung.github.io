@@ -2,13 +2,14 @@ body {
   font-family: 'Muli', sans-serif;
 }
 .span {
-  font-size:6vw;
-  color: #B57B30;
+  font-size:80px;
+  /* color: #B57B30; */
+  color: #157684;
 
 }
 
 .span1{
-  font-size:6vw;
+  font-size:60px;
   color: black;
 }
 
@@ -23,19 +24,19 @@ h2 {
 }
 
 .container {
-  width: 940px;
-  max-width: 100%;
+  width: 100%;
   overflow: hidden;
 }
 
 
-.btnProject {
+#viewProjects {
    background: transparent;
    color: black;
    border: 3px solid black;
+   height:45px;
+   font-size:18px;
+   margin-bottom: 100px;
 
-   word-wrap: break-word;
-   font-size:1em;
 }
 
 .title {
@@ -50,13 +51,15 @@ h2 {
 
 #welcomePage {
   height: 100%;
-  background-image: url("DSC_0478.jpg");
+  width: 100%;
+  background-image: url("sf2018.jpeg");
   background-repeat: no-repeat;
   background-size:cover;
   background-position: center;
 }
 
 #content {
+  margin-bottom:40px;
   text-align: center;
   padding-bottom: 25%;
   padding-top:10%;
@@ -179,7 +182,26 @@ background-size: cover;
 }
 
 
-@@media (min-width: 768px) {
+@media (max-width: 768px) {
+
+.span {
+  font-size: 50px;
+}
+
+.span1 {
+  font-size: 40px;
+}
+
+#viewProjects {
+  margin-top:0px;
+  font-size: 15px;
+  height: 40px;
+
+}
+
+.title {
+  font-size:40px;
+}
   /* Navbar positioning foo */
   .navbar-wrapper {
     margin-top: 20px;
